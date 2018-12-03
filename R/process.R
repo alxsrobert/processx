@@ -381,7 +381,6 @@ dummy_r6 <- function() R6::R6Class
 
 process <- R6::R6Class(
   "process",
-  cloneable = FALSE,
   public = list(
 
     initialize = function(command = NULL, args = character(),
